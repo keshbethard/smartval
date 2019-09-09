@@ -1,0 +1,99 @@
+header {
+    background: #201c46;
+    height: 49px;
+    padding: 0 20px;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+
+    .wrapper {
+        max-width: 1000px;
+        display: flex;
+        margin: 0 auto;
+        height: 50px;
+
+        @media screen and (min-width: 992px) {
+            position: relative;    
+        }
+
+        .logo {
+            color: #fff;
+    
+            img {
+                max-height: 20px;
+                margin: 15px 0;
+            }
+        }
+    
+        .hamburger {
+            margin-left: auto;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            background: transparent;
+            margin: 10px 0 10px auto;
+            text-transform: uppercase;
+            border-radius: 4px;
+            line-height: 28px;
+            height: 28px;
+            padding: 0 10px;
+            cursor: pointer;
+    
+            &.active {
+                background-color: #eb6f93;
+                border-color: #eb6f93;
+            }
+        }
+    
+        .menu {
+            position: absolute;
+            width: calc(100% - 40px);
+            top: 50px;
+            background-color: #13102d;
+            left: 0;
+            padding: 0 20px 20px 20px;
+            flex-wrap: wrap;
+            display: flex;
+            height: calc(100vh - 70px);
+            align-content: flex-start;
+
+            @media screen and (min-width: 992px) {
+                height: initial;
+            }
+    
+            h4 {
+                display: block;
+                text-transform: uppercase;
+                font-size: 14px;
+                margin-top: 30px;
+                color: #eb6f93;
+                width: 100%;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+    
+            a {
+                display: block;
+                text-decoration: none;
+                font-size: 14px;
+                color: #fff;
+                line-height: 30px;
+                border-radius: 4px;
+                width: calc(33.3333% - 12px);
+                text-align: center;
+                margin: 0 5px 10px 5px;
+                border: 1px solid rgba(255, 255, 255, 0.25);
+
+                @media screen and (min-width: 992px) {
+                    width: calc(20% - 12px);
+                    font-size: 18px;
+                }
+
+                &:hover, &.active {
+                    background-color: #eb6f93;
+                    border-color: #eb6f93;
+                }
+            }
+        }
+    }
+}

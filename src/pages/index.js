@@ -1,21 +1,45 @@
 import React from "react"
 import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import Image from "../components/image"
+import Layout from "../components/Layout"
 import SEO from "../components/seo"
+import { navigate } from '@reach/router'
+import Stars from "../components/Rating"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+class IndexPage extends React.Component {
+  handleChange = e => {
+    navigate(e.target.value);
+  };
+
+  render() {
+    return (
+      <Layout name={'landing'}>
+        <SEO title="Vi listar alla jämförelsetjänster" />
+        <div className="hero">
+          <h1>Smidigare väg till en bra jämförelsetjänst.</h1>
+          <div className="landing-stars">
+            {Stars(5)}
+          </div>
+          <p>Samlingsplats för tjänster som jämför <Link to="/lan">lån</Link>, <Link to="/kreditkort">kreditkort</Link>, <Link to="/hotell">hotell</Link> och mycket mer.</p>
+          <div className="filter">
+            <h2>Vad vill du jämföra?</h2>
+            <div className="selection">
+              <select onChange={this.handleChange}>
+                <option defaultValue label="Välj" />
+                <option value="elavtal">Elavtal</option>
+                <option value="flygresor">Flygresor</option>
+                <option value="forsakring">Försäkring</option>
+                <option value="hotell">Hotell</option>
+                <option value="kreditkort">Kreditkort</option>
+                <option value="lan">Lån</option>
+                <option value="spelbolag">Spelbolag</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </Layout>
+    )
+  }
+}
+
 
 export default IndexPage
