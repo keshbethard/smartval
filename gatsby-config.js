@@ -2,7 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Smartval.se`,
     description: `Hitta den bästa jämförseltjänsten efter dina behov.`,
-    author: `@gatsbyjs`,
+    author: `@Smartval`,
+    image: "src/images/smartval-cover.png",
+    url: "https://www.smartval.nu"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
