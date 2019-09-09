@@ -5,7 +5,7 @@ import "./footer.scss"
 
 const Footer = ({ siteTitle }) => (
   <footer>
-    <div>© Smartval.se</div>
+    <div>© Smartval.nu</div>
   </footer>
 )
 

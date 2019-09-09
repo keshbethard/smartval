@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Smartval.se`,
+    title: `Smartval.nu`,
     description: `Hitta den bästa jämförseltjänsten efter dina behov.`,
     author: `@Smartval`,
     image: "src/images/smartval-cover.png",

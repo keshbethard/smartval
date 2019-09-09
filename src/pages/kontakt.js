@@ -16,7 +16,7 @@ class Kontakt extends React.Component {
           <h1>Kontakt</h1>
           <p>Tusen frågor eller problem? Har du idéer eller förslag som du vill dela med dig? Letar du efter sammarbete? Tveka aldrig höra av dig så besvarar vi så fort vi bara kan!</p>
           <h2>Adress</h2>
-          <p>E-post: <a href="mailto:info@smartval.se">info@smartval.se</a></p>
+          <p>E-post: <a href="mailto:info@smartval.nu">info@smartval.nu</a></p>
           <h2>Företag</h2>
           <p>ICSU Media - Handelsbolag<br/>
           Org.Nr. 969791-2971</p>
