@@ -26,8 +26,8 @@ class Header extends React.Component {
       <header>
         <div className="wrapper">
           <div className="logo">
-            <Link to="/">
-              <img src={logo} alt="Smart val" title="Smart val" />
+            <Link to="">
+              <img src={logo} alt="Smartval.nu" title="Smartval.nu" />
             </Link>
           </div>
           <a className={this.state.active ? 'hamburger active' : 'hamburger'} onClick={this.toggleHamburger}>
@@ -37,17 +37,17 @@ class Header extends React.Component {
           {this.state.active && (
             <div className="menu">
               <h4>Jämför</h4>
-              <Link to="/elavtal" activeClassName="active">Elavtal</Link>
-              <Link to="/forsakring" activeClassName="active">Försäkring</Link>
-              <Link to="/flygresor" activeClassName="active">Flygresor</Link>
-              <Link to="/hotell" activeClassName="active">Hotell</Link>
-              <Link to="/kreditkort" activeClassName="active">Kreditkort</Link>
-              <Link to="/lan" activeClassName="active">Lån</Link>
-              <Link to="/spelbolag" activeClassName="active">Spelbolag</Link>
+              <Link to="elavtal" activeClassName="active">Elavtal</Link>
+              <Link to="forsakring" activeClassName="active">Försäkring</Link>
+              <Link to="flygresor" activeClassName="active">Flygresor</Link>
+              <Link to="hotell" activeClassName="active">Hotell</Link>
+              <Link to="kreditkort" activeClassName="active">Kreditkort</Link>
+              <Link to="lan" activeClassName="active">Lån</Link>
+              <Link to="spelbolag" activeClassName="active">Spelbolag</Link>
               <h4>Information</h4>
-              <Link to="/om-oss" activeClassName="active">Om oss</Link>
-              <Link to="/betyg" activeClassName="active">Betyg</Link>
-              <Link to="/kontakt" activeClassName="active">Kontakt</Link>
+              <Link to="om-oss" activeClassName="active">Om oss</Link>
+              <Link to="betyg" activeClassName="active">Betyg</Link>
+              <Link to="kontakt" activeClassName="active">Kontakt</Link>
             </div>
           )}
         </div>

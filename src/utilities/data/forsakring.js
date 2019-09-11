@@ -36,8 +36,8 @@ export const data = [
   },
   {
     id: "006",
-    name: "JamforForsakring",
-    link: "http://jamforforsakring.nu/",
+    name: "Jamför försäkring",
+    link: "http://www.xn--jmfrfrskring-gcbg9xc.com/",
     category: "forsakringar",
     rating: "2"
   },

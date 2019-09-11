@@ -19,7 +19,7 @@ class IndexPage extends React.Component {
           <div className="landing-stars">
             {Stars(5)}
           </div>
-          <p>Samlingsplats för tjänster som jämför <Link to="/lan">lån</Link>, <Link to="/kreditkort">kreditkort</Link>, <Link to="/hotell">hotell</Link> och mycket mer.</p>
+          <p>Samlingsplats för tjänster som jämför <Link to="lan">lån</Link>, <Link to="kreditkort">kreditkort</Link>, <Link to="hotell">hotell</Link> och mycket mer.</p>
           <div className="filter">
             <h2>Vad vill du jämföra?</h2>
             <div className="selection">
