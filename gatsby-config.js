@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Smartval.nu`,
-    description: `Hitta den bästa jämförseltjänsten efter dina behov.`,
+    description: `Sveriges största samlingsplats för jämförelsetjänster. Vi listar tjänster som jämför: ✓ Lån ✓ Försäkringar ✓ Mat ✓ Elavtal ✓ Kreditkort ✓ Flygresor mm.`,
     author: `@Smartval`,
     image: "images/smartval-cover.png",
     url: "https://www.smartval.nu"
