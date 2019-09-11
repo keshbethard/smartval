@@ -20,7 +20,11 @@ class Rate extends React.Component {
         
         return (
             <div className={this.state.like ? 'like up' : 'like'} onClick={this.toggleLike}>
-                <i className="material-icons">star</i>
+                {this.state.like ? (
+                    <i className="material-icons">exposure_plus_1</i>
+                ) : (
+                    <i className="material-icons">star_border</i>
+                )}
             </div>
         )
 
