@@ -18,7 +18,7 @@ export const data = [
     name: "Expedia",
     link: "https://www.expedia.se/Hotell",
     category: "hotell",
-    rating: "4"
+    rating: "3"
   },
   {
     id: "004",
@@ -82,6 +82,41 @@ export const data = [
     link: "https://sv.hotels.com/",
     category: "hotell",
     rating: "5"
+  },
+  {
+    id: "013",
+    name: "Travellink",
+    link: "https://www.travellink.se/",
+    category: "hotell",
+    rating: "3"
+  },
+  {
+    id: "014",
+    name: "Kayak",
+    link: "https://www.kayak.se/",
+    category: "hotell",
+    rating: "3"
+  },
+  {
+    id: "015",
+    name: "Bravofly",
+    link: "https://www.ving.se/",
+    category: "flygresor",
+    rating: "3"
+  },
+  {
+    id: "016",
+    name: "TUI",
+    link: "https://www.tui.se/",
+    category: "flygresor",
+    rating: "3"
+  },
+  {
+    id: "017",
+    name: "Flygstolen.se",
+    link: "https://www.flygstolen.se/",
+    category: "flygresor",
+    rating: "3"
   },
 ];
 

@@ -20,6 +20,20 @@ export const data = [
     category: "elavtal",
     rating: "4"
   },
+  {
+    id: "004",
+    name: "Zmarta",
+    link: "https://www.zmarta.se/el/",
+    category: "elavtal",
+    rating: "5"
+  },
+  {
+    id: "005",
+    name: "Kundkraft",
+    link: "https://www.kundkraft.se/",
+    category: "elavtal",
+    rating: "3"
+  },
 ];
 
 export default data;

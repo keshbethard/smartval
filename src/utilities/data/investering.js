@@ -3,7 +3,7 @@ export const data = [
     id: "001",
     name: "Fondkollen",
     link: "https://fondkollen.se/",
-    category: "elavtal",
+    category: "investering",
     rating: "4"
   },
 ];

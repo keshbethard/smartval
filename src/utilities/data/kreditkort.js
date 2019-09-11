@@ -108,7 +108,7 @@ export const data = [
     id: "016",
     name: "KonsumentIQ",
     link: "https://www.konsumentiq.se/kreditkort",
-    category: "forsakringar",
+    category: "kreditkort",
     rating: "3"
   },
 ];

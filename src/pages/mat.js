@@ -28,6 +28,7 @@ class Mat extends React.Component {
               </div>
             </div>
           ))}
+          <span className="category-disclaimer">Saknar du en bra jämförelsetjänst för mat i listan ovan? <a href="/kontakt">Hör av dig</a> till oss!</span>
         </div>
       </Layout>
     )
