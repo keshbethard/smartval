@@ -4,7 +4,6 @@ import SEO from "../components/seo"
 
 import Facebook from "../images/Facebook.png"
 import Instagram from "../images/Instagram.png"
-import Twitter from "../images/Twitter.png"
 
 class Kontakt extends React.Component {
 
@@ -22,9 +21,8 @@ class Kontakt extends React.Component {
           Org.Nr. 969791-2971</p>
           <h2>Socialt</h2>
           <div className="social">
-            <div><a href="/"><img src={Facebook} alt="Facebook" title="Facebook" /></a></div>
-            <div><a href="/"><img src={Instagram} alt="Instagram" title="Instagram" /></a></div>
-            <div><a href="/"><img src={Twitter} alt="Twitter" title="Twitter" /></a></div>
+            <div><a href="https://www.facebook.com/smartval.nu/" target="_blank" rel="noopener noreferrer nofollow"><img src={Facebook} alt="Facebook" title="Facebook" /></a></div>
+            <div><a href="https://www.instagram.com/smartval.nu/" target="_blank" rel="noopener noreferrer nofollow"><img src={Instagram} alt="Instagram" title="Instagram" /></a></div>
           </div>
         </div>
       </Layout>

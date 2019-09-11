@@ -1,0 +1,41 @@
+.like {
+    position: absolute;
+    right: -14px;
+    display: block;
+    top: -14px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    border-radius: 14px;
+    background: #13102d;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &.up {
+        animation-duration: 1s;
+        animation-name: up;
+        background-color: #eb6f93;
+        transition: all 0.5s ease;
+
+        .material-icons {
+            opacity: 1;
+            transition: all 0.5s ease;
+            color: #fff;
+        }
+    }
+
+    .material-icons {
+        font-size: 18px;
+        color: #fff;
+        line-height: 28px;
+        opacity: .25;
+    }
+}
+
+@keyframes up {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-15px);}
+    60% {transform: translateY(-10px);}
+}

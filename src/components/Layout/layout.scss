@@ -110,7 +110,7 @@ main {
             background: url(../../images/background-desktop.png);
             background-repeat: no-repeat;
             background-position: center center;
-            background-size: 500px;
+            background-size: 450px;
         }
 
         h1 {
@@ -232,6 +232,7 @@ main {
             display: flex;
             flex-wrap: wrap;
             border-radius: 4px;
+            position: relative;
 
             .name-rating {
                 margin-right: auto;

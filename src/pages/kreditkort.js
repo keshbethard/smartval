@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import Stars from '../components/Rating'
+import Rate from '../components/Rate'
 import SEO from "../components/seo"
 import data from '../utilities/data/kreditkort'
 import { Link } from "gatsby"
@@ -23,6 +24,7 @@ class Kreditkort extends React.Component {
                   {Stars(item.rating)}
                 </div>
               </div>
+              <Rate />
               <div className="link">
                 <a href={item.link} target="_blank" rel="noopener noreferrer nofollow">Besök</a>
               </div>
