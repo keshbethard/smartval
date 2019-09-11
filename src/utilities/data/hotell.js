@@ -76,6 +76,13 @@ export const data = [
     category: "hotell",
     rating: "3"
   },
+  {
+    id: "012",
+    name: "Hotels.com",
+    link: "https://sv.hotels.com/",
+    category: "hotell",
+    rating: "5"
+  },
 ];
 
 export default data;

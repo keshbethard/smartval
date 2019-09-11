@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import Stars from '../components/Rating'
 import SEO from "../components/seo"
 import data from '../utilities/data/hotell'
+import { Link } from "gatsby"
 
 class Hotell extends React.Component {
 
@@ -13,6 +14,7 @@ class Hotell extends React.Component {
         <div className="category-content hotell">
           <h1>Hotell</h1>
           <span className="total">Totalt: {data.length}</span>
+          <p className="category-description">Nedan listar vi alla jämförelsetjänster för hotell. Noga utvärderade baserat på <Link to="/betyg">våra kriterier</Link>.</p>
           {data.sort((a, b) => b.rating - a.rating).map(item => (
             <div className="block" key={item.id}>
               <div className="name-rating">
@@ -26,6 +28,7 @@ class Hotell extends React.Component {
               </div>
             </div>
           ))}
+          <span className="category-disclaimer">Saknar du en bra jämförelsetjänst för hotell i listan ovan? <a href="/kontakt">Hör av dig</a> till oss!</span>
         </div>
       </Layout>
     )
