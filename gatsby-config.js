@@ -40,6 +40,12 @@ module.exports = {
         ],
         display: 'swap'
       }
+    },
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'sv'
+      }
     }
   ],
   pathPrefix: "/smartval",
