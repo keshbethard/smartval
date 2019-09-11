@@ -107,7 +107,9 @@ main {
         background-position: center center;
 
         @media screen and (min-width: 500px) {
-            background: none;
+            background: url(../../images/background-desktop.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
         }
 
         h1 {
