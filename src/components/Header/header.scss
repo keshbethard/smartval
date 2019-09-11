@@ -7,6 +7,10 @@ header {
     top: 0;
     z-index: 99;
 
+    &.active {
+        background-color: #201c46;
+    }
+
     .wrapper {
         max-width: 1000px;
         display: flex;
@@ -18,8 +22,6 @@ header {
         }
 
         .logo {
-            color: #fff;
-    
             img {
                 max-height: 20px;
                 margin: 15px 0;

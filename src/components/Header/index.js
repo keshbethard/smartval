@@ -23,7 +23,7 @@ class Header extends React.Component {
   render() {
     console.log(this.state.active)
     return (
-      <header>
+      <header className={this.state.active ? 'active' : ''}>
         <div className="wrapper">
           <div className="logo">
             <Link to="">

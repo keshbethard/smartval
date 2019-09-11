@@ -77,23 +77,30 @@ a:hover {
 }
 
 main {
-    background: #201c46;
+    background: #201c46;;
 
     &.single {
         background-color: #fff;
     }
 
     .hero {
-        padding: 20px;
+        padding: 70px 20px 20px 20px;
         text-align: center;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        height: calc(100vh - 90px);
+        height: calc(100vh - 40px);
         max-width: 1000px;
-        margin: 0 auto;
+        margin: -50px auto 0 auto;
+        background: url(../../images/background-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+
+        @media screen and (min-width: 500px) {
+            background: none;
+        }
 
         h1 {
             color: #fff;
