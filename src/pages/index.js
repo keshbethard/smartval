@@ -31,6 +31,7 @@ class IndexPage extends React.Component {
                 <option value="hotell">Hotell</option>
                 <option value="kreditkort">Kreditkort</option>
                 <option value="lan">Lån</option>
+                <option value="mat">Mat</option>
                 <option value="spelbolag">Spelbolag</option>
               </select>
             </div>

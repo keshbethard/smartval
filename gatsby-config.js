@@ -3,7 +3,7 @@ module.exports = {
     title: `Smartval.nu`,
     description: `Hitta den bästa jämförseltjänsten efter dina behov.`,
     author: `@Smartval`,
-    image: "src/images/smartval-cover.png",
+    image: "images/smartval-cover.png",
     url: "https://www.smartval.nu"
   },
   plugins: [
@@ -46,7 +46,13 @@ module.exports = {
       options: {
         lang: 'sv'
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-92073965-4",
+      },
+    },
   ],
   pathPrefix: "/",
 }

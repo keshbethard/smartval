@@ -4,7 +4,8 @@ export const data = [
     name: "Alcasino",
     link: "https://alcasino.se/",
     category: "spelbolag",
-    rating: "5"
+    rating: "5",
+    follow: true
   },
   {
     id: "002",

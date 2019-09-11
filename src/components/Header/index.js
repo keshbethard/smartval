@@ -43,6 +43,7 @@ class Header extends React.Component {
               <Link to="hotell" activeClassName="active">Hotell</Link>
               <Link to="kreditkort" activeClassName="active">Kreditkort</Link>
               <Link to="lan" activeClassName="active">Lån</Link>
+              <Link to="mat" activeClassName="active">Mat</Link>
               <Link to="spelbolag" activeClassName="active">Spelbolag</Link>
               <h4>Information</h4>
               <Link to="om-oss" activeClassName="active">Om oss</Link>
