@@ -13,7 +13,7 @@ class Cookies extends React.Component {
         <div className="single-content">
           <h1>Cookies</h1>
           <p>För att förbättra din upplevelse hos oss på Smartval använder vi oss av cookies, web beacons och liknande tekniker (gemensamt kallade ”cookies”).</p>
-          <h2>Vad är en cookies?</h2>
+          <h2>Vad är en cookie?</h2>
           <p>En cookie är en liten textfil (oftast mindre än 1 kB) som sparas i din dator och lagrar information. Cookies används bland annat för att förbättra webbplatsen för användaren.</p>
           <h4>Olika typ av cookies</h4>
           <ul>
@@ -24,7 +24,7 @@ class Cookies extends React.Component {
 
           <h2>Cookies vi använder</h2>
           <ul>
-            <li>Google Analytics – verktyg som används för att samla in information vi använder för statistik och optimering av vår marknadsföring. Här kan du läsa mer om <a href="https://policies.google.com/privacy" rel="noopener noreferrer nofollow">Google Analytics</a>.</li>
+            <li>Google Analytics – verktyg som används för att samla in information om statistik och optimering av vår marknadsföring. Här kan du läsa mer om <a href="https://policies.google.com/privacy" rel="noopener noreferrer nofollow">Google Analytics</a>.</li>
           </ul>
         </div>
       </Layout>

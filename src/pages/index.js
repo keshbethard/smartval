@@ -13,7 +13,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout name={'landing'}>
-        <SEO title="Vi listar och rangordnar alla jämförelsetjänster." />
+        <SEO title="Vi listar och rangordnar alla jämförelsetjänster" />
         <div className="hero">
           <h1>Smidigare väg till en bra jämförelsetjänst.</h1>
           <div className="landing-stars">
