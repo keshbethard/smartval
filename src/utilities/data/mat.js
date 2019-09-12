@@ -105,6 +105,27 @@ export const data = [
     category: "mat",
     rating: "0"
   },
+  {
+    id: "016",
+    name: "Matpriskollen",
+    link: "https://matpriskollen.se/",
+    category: "mat",
+    rating: "3"
+  },
+  {
+    id: "017",
+    name: "Nätmat",
+    link: "https://www.natmat.se/",
+    category: "mat",
+    rating: "3"
+  },
+  {
+    id: "018",
+    name: "Matvarupriser",
+    link: "https://www.matvarupriser.se/",
+    category: "mat",
+    rating: "1"
+  },
 ];
 
 export default data;

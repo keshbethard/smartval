@@ -111,6 +111,13 @@ export const data = [
     category: "kreditkort",
     rating: "3"
   },
+  {
+    id: "017",
+    name: "Moneymaster",
+    link: "https://www.moneymaster.se/",
+    category: "investering",
+    rating: "3"
+  },
 ];
 
 export default data;

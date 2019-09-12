@@ -14,7 +14,7 @@ class Betyg extends React.Component {
           <h1>Betyg</h1>
           <p>För att bibehålla kvalité har vi på Smartval valt att vara helt transparanta och helt opartiska när det kommer till betygsutdelning och rang på vår sida. Håller du inte med eller har några synpunkter är du välkommen att <Link to="/kontakt">ta kontakt med oss</Link>.</p>
           <h2>Hur bedömer vi?</h2>
-          <p>För att kunna ge en ärlig betyg börjar vi arbetet med att noggrant granska jämförelsetjänsten genom att helt enkelt testa den ur en användares perspektiv. Vi tar alltid en extra titt på hur stort utbud tjänsten har då vi finner det väldigt relevant. För att få toppbetyg bör tjänsten också vara informativ och det ska vara enkelt att hitta sig fram. Kvalité på information är ett krav och smarta funktioner är ett stort plus. Vissa tjänster är mer populära än andra och oftast av en bra anledning, för de är bättre. Givetvis räknar vi in även detta när vi sätter vår slutgiltiga resultat.</p>
+          <p>För att kunna ge en ärlig betyg börjar vi arbetet med att noggrant granska jämförelsetjänsten genom att helt enkelt testa den ur en användares perspektiv. Vi tar alltid en extra titt på hur stort utbud tjänsten har då vi finner det väldigt relevant. För att få toppbetyg bör tjänsten också vara informativ och det ska vara enkelt att hitta sig fram. Kvalité på information är ett krav och smarta funktioner är ett stort plus. Vissa tjänster är mer populära än andra och oftast av en bra anledning, för de är bättre. Givetvis räknar vi in även detta när vi sätter vår slutgiltiga betyg.</p>
           <h4>Vad tittar vi på?</h4>
           <ul>
             <li>Utbud</li>

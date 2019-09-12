@@ -104,6 +104,13 @@ export const data = [
     category: "lan",
     rating: "3"
   },
+  {
+    id: "016",
+    name: "Moneymaster",
+    link: "https://www.moneymaster.se/",
+    category: "investering",
+    rating: "3"
+  },
 ];
 
 export default data;

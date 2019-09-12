@@ -13,13 +13,13 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout name={'landing'}>
-        <SEO title="Vi listar och rangordnar alla jämförelsetjänster på nätet." />
+        <SEO title="Vi listar och rangordnar alla jämförelsetjänster." />
         <div className="hero">
           <h1>Smidigare väg till en bra jämförelsetjänst.</h1>
           <div className="landing-stars">
             {Stars(5)}
           </div>
-          <p>Samlingsplats för gratis tjänster som jämför <Link to="/lan">lån</Link>, <Link to="/kreditkort">kreditkort</Link>, <Link to="/hotell">hotell</Link> och mycket mer.</p>
+          <p>Samlingsplats för gratis tjänster som jämför <Link to="/lan">lån</Link>, <Link to="/mat">mat</Link>, <Link to="/kreditkort">kreditkort</Link>, <Link to="/hotell">hotell</Link> och mycket mer.</p>
           <div className="filter">
             <h2>Vad vill du jämföra?</h2>
             <div className="selection">
