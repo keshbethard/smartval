@@ -48,6 +48,7 @@ class Header extends React.Component {
               <h4>Information</h4>
               <Link to="/om-oss" activeClassName="active">Om oss</Link>
               <Link to="/betyg" activeClassName="active">Betyg</Link>
+              <Link to="/cookies" activeClassName="active">Cookies</Link>
               <Link to="/kontakt" activeClassName="active">Kontakt</Link>
             </div>
           )}
