@@ -25,6 +25,7 @@ class Cookies extends React.Component {
           <h2>Cookies vi använder</h2>
           <ul>
             <li>Google Analytics – verktyg som används för att samla in information om statistik och optimering av vår marknadsföring. Här kan du läsa mer om <a href="https://policies.google.com/privacy" rel="noopener noreferrer nofollow">Google Analytics</a>.</li>
+            <li>Google Tag Manager – verktyg som används för webbanalys genom att bland annat registrera vilka webbsidor besökaren använder sig av.</li>
           </ul>
         </div>
       </Layout>

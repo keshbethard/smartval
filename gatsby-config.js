@@ -53,6 +53,14 @@ module.exports = {
         trackingId: "UA-92073965-4",
       },
     },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-MLNC5XD",
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" },
+      },
+    },
   ],
   pathPrefix: "/",
 }
