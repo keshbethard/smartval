@@ -11,7 +11,10 @@ class Kreditkort extends React.Component {
   render() {
     return (
       <Layout name={'category'}>
-        <SEO title="Kreditkort" />
+        <SEO 
+          title="Kreditkort"
+          description="Vi listar och rangordnar alla gratis tjänster som jämför kreditkort. Hitta din nästa kreditkort med Smartval. Du hittar även: ✓ Lån ✓ Investeringar ✓ Försäkringar mm."
+        />
         <div className="category-content kreditkort">
           <h1 className="kreditkort">Kreditkort</h1>
           <span className="total">Totalt: {data.length}</span>

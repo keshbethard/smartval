@@ -11,7 +11,10 @@ class Mat extends React.Component {
   render() {
     return (
       <Layout name={'category'}>
-        <SEO title="Mat" />
+        <SEO 
+          title="Mat"
+          description="Vi listar och rangordnar alla gratis tjänster som jämför mat och matkassar. Hitta din nästa matleverantör med Smartval. Du hittar även: ✓ Kreditkort ✓ Flygresor ✓ Försäkringar mm."
+        />
         <div className="category-content mat">
           <h1>Mat</h1>
           <span className="total">Totalt: {data.length}</span>

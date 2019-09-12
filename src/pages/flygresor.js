@@ -11,7 +11,10 @@ class Flygresor extends React.Component {
   render() {
     return (
       <Layout name={'category'}>
-        <SEO title="Flygresor" />
+        <SEO 
+          title="Flygresor"
+          description="Vi listar och rangordnar alla gratis tjänster som jämför flygresor. Hitta din nästa flygresa med Smartval. Du hittar även: ✓ Hotell ✓ Mat ✓ Försäkringar mm."
+        />
         <div className="category-content flygresor">
           <h1>Flygresor</h1>
           <span className="total">Totalt: {data.length}</span>

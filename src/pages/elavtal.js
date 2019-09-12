@@ -11,8 +11,10 @@ class Elavtal extends React.Component {
   render() {
     return (
       <Layout name={'category'}>
-        <SEO title="Elavtal" />
-        <SEO description="Vi listar och rangordnar alla gratis tjänster som jämför elavtal. Hitta din nästa elleverantör med Smartval." />
+        <SEO 
+          title="Elavtal"
+          description="Vi listar och rangordnar alla gratis tjänster som jämför elavtal. Hitta din nästa elleverantör med Smartval. Du hittar även: ✓ Lån ✓ Kreditkort ✓ Investeringar mm."
+        />
         <div className="category-content elavtal">
           <h1>Elavtal</h1>
           <span className="total">Totalt: {data.length}</span>

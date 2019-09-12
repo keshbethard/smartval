@@ -11,7 +11,10 @@ class Lan extends React.Component {
   render() {
     return (
       <Layout name={'category'}>
-        <SEO title="Lån" />
+        <SEO 
+          title="Lån"
+          description="Vi listar och rangordnar alla gratis tjänster som jämför lån. Hitta din nästa lån med Smartval. Du hittar även: ✓ Kreditkort ✓ Försäkringar ✓ Elavtal mm."
+        />
         <div className="category-content lan">
           <h1>Lån</h1>
           <span className="total">Totalt: {data.length}</span>

@@ -11,7 +11,10 @@ class Hotell extends React.Component {
   render() {
     return (
       <Layout name={'category'}>
-        <SEO title="Hotell" />
+        <SEO 
+          title="Hotell"
+          description="Vi listar och rangordnar alla gratis tjänster som jämför hotell. Hitta din nästa hotell med Smartval. Du hittar även: ✓ Flygresor ✓ Försäkringar ✓ Mat mm."
+        />
         <div className="category-content hotell">
           <h1>Hotell</h1>
           <span className="total">Totalt: {data.length}</span>

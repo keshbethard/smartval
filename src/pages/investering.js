@@ -11,7 +11,10 @@ class Investering extends React.Component {
   render() {
     return (
       <Layout name={'category'}>
-        <SEO title="Investering" />
+        <SEO 
+          title="Investering"
+          description="Vi listar och rangordnar alla gratis tjänster som jämför investeringar. Hitta din nästa investering med Smartval. Du hittar även: ✓ Lån ✓ Kreditkort ✓ Försäkringar mm."
+        />
         <div className="category-content investering">
           <h1>Investering</h1>
           <span className="total">Totalt: {data.length}</span>

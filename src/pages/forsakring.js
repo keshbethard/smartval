@@ -11,7 +11,10 @@ class Forsakringar extends React.Component {
   render() {
     return (
       <Layout name={'category'}>
-        <SEO title="Försäkring" />
+        <SEO 
+          title="Försäkring"
+          description="Vi listar och rangordnar alla gratis tjänster som jämför försäkringar. Hitta din nästa försäkring med Smartval. Du hittar även: ✓ Lån ✓ Kreditkort ✓ Investeringar mm."
+        />
         <div className="category-content forsakring">
           <h1>Försäkring</h1>
           <span className="total">Totalt: {data.length}</span>

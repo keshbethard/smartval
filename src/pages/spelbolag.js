@@ -11,7 +11,10 @@ class Spelbolag extends React.Component {
   render() {
     return (
       <Layout name={'category'}>
-        <SEO title="Spelbolag" />
+        <SEO 
+          title="Spelbolag"
+          description="Vi listar och rangordnar alla gratis tjänster som jämför spelbolag. Hitta en bra spelbolag med Smartval. Du hittar: ✓ Casino ✓ Betting ✓ Bingo mm."
+        />
         <div className="category-content spelbolag">
           <h1>Spelbolag</h1>
           <span className="total">Totalt: {data.length}</span>
