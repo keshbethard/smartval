@@ -3,7 +3,7 @@ module.exports = {
     title: `Smartval.nu`,
     description: `Sveriges största samlingsplats för gratis jämförelsetjänster. Vi listar de som jämför: ✓ Lån ✓ Försäkringar ✓ Mat ✓ Elavtal ✓ Kreditkort ✓ Flygresor mm.`,
     author: `@Smartval`,
-    image: "/images/smartval-cover.png",
+    image: "src/images/smartval-og.jpg",
     url: "https://www.smartval.nu"
   },
   plugins: [

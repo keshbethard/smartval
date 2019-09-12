@@ -4,6 +4,7 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import { navigate } from '@reach/router'
 import Stars from "../components/Rating"
+import ogImage from '../images/smartval-og.jpg'
 
 class IndexPage extends React.Component {
   handleChange = e => {
@@ -13,7 +14,10 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout name={'landing'}>
-        <SEO title="Vi listar och rangordnar alla jämförelsetjänster" />
+        <SEO 
+          title="Vi listar och rangordnar alla jämförelsetjänster"
+          image={ogImage}
+        />
         <div className="hero">
           <h1>Smidigare väg till en bra jämförelsetjänst.</h1>
           <div className="landing-stars">
